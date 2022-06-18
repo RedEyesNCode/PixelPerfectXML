@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:paddingVertical="@dimen/_8sdp"
+    android:layout_height="?actionBarSize">
+    <ImageView
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:contentDescription="@string/message_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_6sdp"
+        android:src="@drawable/ic_message"
+        />
+
+    <TextView
+        android:id="@+id/tvLogoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.4"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/your_logo_here"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp" />
+    <ImageView
+        android:id="@+id/btnUserprofile"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/_6sdp"
+        android:layout_centerVertical="true"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:src="@drawable/ic_profile"/>
+</RelativeLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".UserProfileActivity">
+
+    <include
+        android:id="@+id/commonTitleBar"
+        layout="@layout/common_title_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/commonTitleBar"
+        android:background="@drawable/ic_post_girl"
+        android:elevation="-90dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_95sdp"
+            android:layout_above="@id/layoutProfile"
+            android:paddingTop="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_minus35sdp"
+            android:background="@drawable/shadow_gradient_bottom_top"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rbold"
+                    android:text="135"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rmedium"
+                    android:gravity="end"
+                    android:text="Posts"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_11sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rbold"
+                    android:singleLine="true"
+                    android:text="5,231K"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rmedium"
+                    android:text="Followers"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_11sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rbold"
+                    android:text="99"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rmedium"
+                    android:text="Following"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_11sdp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/blue_button_bg"
+                android:orientation="vertical"
+                android:paddingVertical="@dimen/_8sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/rmedium"
+                    android:text="Follow"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_11sdp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layoutProfile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_255sdp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/background_white_top_curve"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:layout_marginHorizontal="@dimen/_27sdp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RedEyesNCode"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/rblack"
+                    android:textSize="@dimen/_11ssp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Passionate Android Developer"
+                    android:textSize="@dimen/_10ssp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/rmedium"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:layout_height="wrap_content"
+                    android:text="Obsessed with learning new things in android and yeah I game a lot"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/rmedium"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    app:spanCount="3"
+                    android:layout_marginTop="@dimen/_9sdp"
+                    android:id="@+id/recvPosts"
+                    tools:listitem="@layout/post_list"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    android:layout_height="wrap_content">
+
+
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
