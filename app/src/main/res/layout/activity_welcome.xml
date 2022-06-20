@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_blue_mix"
+    tools:context=".auth.WelcomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_38sdp"
+        android:layout_marginHorizontal="@dimen/_18sdp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:id="@+id/btnLogin"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/rmedium"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11ssp"
+                android:text="Have an account already ?"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/rmedium"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11ssp"
+                android:text="@string/log_in"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content">
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="@dimen/_58sdp"
+                android:layout_height="@dimen/_58sdp"
+                app:riv_corner_radius="@dimen/_28sdp"
+                android:src="@drawable/ic_github"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:fontFamily="@font/rbold"
+                android:text="Welcome to Pixel Perfect XML"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_19ssp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_18sdp"
+                android:background="@drawable/white_background_button_fill"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/_8sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:src="@drawable/ic_facebook" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:fontFamily="@font/rmedium"
+                    android:gravity="center"
+                    android:text="Continue with facebook"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/_12ssp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12ssp"
+                android:id="@+id/btnSignup"
+                android:background="@drawable/background_curve_transperent_fill"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/_12sdp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:fontFamily="@font/rmedium"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_11ssp"
+                    android:text="Create an Account"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/rbold"
+            android:paddingBottom="@dimen/_18sdp"
+            android:text="Github/RedEyesNCode"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11ssp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

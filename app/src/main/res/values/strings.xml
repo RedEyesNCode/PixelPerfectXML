@@ -2,4 +2,6 @@
     <string name="app_name">CleanCodeXML</string>
     <string name="message_icon">message icon</string>
     <string name="your_logo_here">Logo</string>
+    <string name="log_in">Log in</string>
+
 </resources>

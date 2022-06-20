@@ -3,6 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GIT_REPOS/CleanCodeXML/PixelPerfectXML/PixelPerfectXML/app/src/main/res/drawable/background_blue_fill_curve.xml" value="0.1335" />
+        <entry key="..\:/GIT_REPOS/CleanCodeXML/PixelPerfectXML/PixelPerfectXML/app/src/main/res/drawable/background_curve_transperent_fill.xml" value="0.1335" />
+        <entry key="..\:/GIT_REPOS/CleanCodeXML/PixelPerfectXML/PixelPerfectXML/app/src/main/res/drawable/gradient_blue_mix.xml" value="0.1335" />
+        <entry key="..\:/GIT_REPOS/CleanCodeXML/PixelPerfectXML/PixelPerfectXML/app/src/main/res/drawable/white_background_button_fill.xml" value="0.1335" />
+        <entry key="..\:/GIT_REPOS/CleanCodeXML/PixelPerfectXML/PixelPerfectXML/app/src/main/res/layout/activity_login.xml" value="0.152" />
+        <entry key="..\:/GIT_REPOS/CleanCodeXML/PixelPerfectXML/PixelPerfectXML/app/src/main/res/layout/activity_notifications.xml" value="0.2" />
+        <entry key="..\:/GIT_REPOS/CleanCodeXML/PixelPerfectXML/PixelPerfectXML/app/src/main/res/layout/activity_user_email.xml" value="0.16799999999999998" />
+        <entry key="..\:/GIT_REPOS/CleanCodeXML/PixelPerfectXML/PixelPerfectXML/app/src/main/res/layout/activity_user_name.xml" value="0.176" />
+        <entry key="..\:/GIT_REPOS/CleanCodeXML/PixelPerfectXML/PixelPerfectXML/app/src/main/res/layout/activity_user_profile.xml" value="0.190625" />
+        <entry key="..\:/GIT_REPOS/CleanCodeXML/PixelPerfectXML/PixelPerfectXML/app/src/main/res/layout/activity_welcome.xml" value="0.2" />
+        <entry key="..\:/GIT_REPOS/CleanCodeXML/PixelPerfectXML/PixelPerfectXML/app/src/main/res/layout/common_title_bar.xml" value="0.1" />
         <entry key="..\:/GIT_REPOS/CleanCodeXML/app/src/main/res/drawable/background_white_top_curve.xml" value="0.152" />
         <entry key="..\:/GIT_REPOS/CleanCodeXML/app/src/main/res/drawable/blue_button_bg.xml" value="0.1265" />
         <entry key="..\:/GIT_REPOS/CleanCodeXML/app/src/main/res/drawable/shadow_gradient_bottom_top.xml" value="0.2" />
